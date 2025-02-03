@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ardra Sasidharan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Ardra Sasidharan</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ardra Sasidharan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/procard-modified.png" alt="pro pic" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ardra Sasidharan</h1>
+        <p class="section__text__p2">
+          Aspiring Mern stack Developer/Data enthusiast
+        </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Ardra_Sasidharan.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.icon.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github icon.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about me.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/skill icon.png"
+                alt="skill icon"
+                class="icon"
+              />
+              <h3>Skills</h3>
+              <p>Full Stack Development<br />Data Analysis</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education-icon.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech in Electronics and<br />Communications</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              BTech graduate in Electronics and Communication Engineering with a
+              CGPA of 8.22, currently focused on full-stack development and data
+              analysis. I have developed expertise in both front-end and
+              back-end technologies, including the MERN stack, and I am
+              passionate about transforming data into actionable insights. With
+              a strong foundation in technical skills and a drive for continuous
+              learning, I aim to contribute to impactful projects in the tech
+              industry
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Showcasing</p>
+      <h1 class="title">My Skills</h1>
+
+      <div class="skills-container">
+        <!-- Card 1 -->
+        <div class="skill-card">
+          <img src="./assets/html.jpeg" alt="Skill 1" class="skill-image" />
+        </div>
+
+        <!-- Card 2 -->
+        <div class="skill-card">
+          <img src="./assets/css.jpeg" alt="Skill 2" class="skill-image" />
+        </div>
+
+        <!-- Card 3 -->
+        <div class="skill-card">
+          <img
+            src="./assets/javascript.jpeg"
+            alt="Skill 3"
+            class="skill-image"
+          />
+        </div>
+
+        <!-- Card 4 -->
+        <div class="skill-card">
+          <img src="./assets/react.jpeg" alt="Skill 4" class="skill-image" />
+        </div>
+
+        <!-- Card 5 -->
+        <div class="skill-card">
+          <img
+            src="./assets/bootstrap.jpeg"
+            alt="Skill 5"
+            class="skill-image"
+          />
+        </div>
+
+        <!-- Card 6 -->
+        <div class="skill-card">
+          <img src="./assets/node.jpeg" alt="Skill 6" class="skill-image" />
+        </div>
+
+        <!-- Card 7 -->
+        <div class="skill-card">
+          <img src="./assets/express.jpeg" alt="Skill 7" class="skill-image" />
+        </div>
+
+        <!-- Card 8 -->
+        <div class="skill-card">
+          <img src="./assets/sql.jpeg" alt="Skill 8" class="skill-image" />
+        </div>
+
+        <!-- Card 9 -->
+        <div class="skill-card">
+          <img src="./assets/mongodb.jpeg" alt="Skill 9" class="skill-image" />
+        </div>
+
+        <!-- Card 10 -->
+        <div class="skill-card">
+          <img src="./assets/python.jpeg" alt="Skill 10" class="skill-image" />
+        </div>
+
+        <!-- Card 11 -->
+        <div class="skill-card">
+          <img src="./assets/powerbi.jpeg" alt="Skill 11" class="skill-image" />
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="section-title">Browse my recent</p>
+      <h1 class="section-title">Projects</h1>
+      <div class="projects-container">
+        <!-- Project Card 1 -->
+        <div class="project-card color-container">
+          <div class="project-card-content">
+            <img
+              src="./assets/yogamaster.png"
+              alt="Project 1"
+              class="project-img"
+            />
+            <div class="project-hover">
+              <h3 class="project-title">Yoga-Master</h3>
+              <p class="">Mern stack(In Progress)</p>
+              <a
+                href="https://yoga-master-final-pi.vercel.app/"
+                class="project-link"
+                ><i class="fas fa-link"></i> 🔗</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Project Card 2 -->
+        <div class="project-card color-container">
+          <div class="project-card-content">
+            <img
+              src="./assets/quickbite_project.png"
+              alt="Project 2"
+              class="project-img"
+            />
+            <div class="project-hover">
+              <h3 class="project-title">QuickBite</h3>
+              <p class="">
+                Responsive website designed using HTML, CSS, and JavaScript
+              </p>
+              <a
+                href="https://ardra-sasidharan.github.io/QuickBite/"
+                class="project-link"
+                ><i class="fas fa-link"></i> 🔗</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Project Card 3 -->
+        <div class="project-card color-container">
+          <div class="project-card-content">
+            <img
+              src="./assets/olympics_project.png"
+              alt="Project 3"
+              class="project-img"
+            />
+            <div class="project-hover">
+              <h3 class="project-title">Olympics 2024 Analysis</h3>
+              <p class="">Insightful Power BI analysis of the 2024 Olympics</p>
+              <a
+                href="https://github.com/Ardra-Sasidharan/Olympics-2024-Analysis"
+                class="project-link"
+                ><i class="fas fa-link"></i>🔗</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Project Card 4 -->
+        <div class="project-card color-container">
+          <div class="project-card-content">
+            <img
+              src="./assets/portfolio.png"
+              alt="Project 3"
+              class="project-img"
+            />
+            <div class="project-hover">
+              <h3 class="project-title">Portfolio Website</h3>
+              <p class="">Portfolio website using HTML,CSS and Javascript</p>
+              <a href="#" class="project-link"><i class="fas fa-link"></i>🔗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/main-icon.png"
+            alt="Email icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="mailto:examplemail@gmail.com"
+              >ardrasasidharan001@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.icon.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/ardra-sasidharan-05a861211/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Based in Kochi, Kerala. Open to work opportunities.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
